@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Image</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body background ="https://i.pinimg.com/564x/18/c1/7c/18c17c6a2db05d2a14247d67bccefef4.jpg">
+    <div class="container">
+        <div class="timer-Display">
+            00hr:00min :00sec
+        </div>
+        <ul class="laps"></ul>
+        <div class="buttons">
+            <button id="startTimer" onclick="start()">Start</button>
+            <button id="pauseTimer" onclick="pause()">Pause</button>
+            <button id="resetTime" onclick="reset()">Reset</button>
+            <button id="restartTimer" onclick="restart()">Restart</button>
+            <button id="lap" onclick="lap()">Lap</button>
+            <button id="resetLap" onclick="resetLap()">Reset Laps</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
